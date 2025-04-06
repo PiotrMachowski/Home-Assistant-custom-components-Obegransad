@@ -83,22 +83,27 @@
   "services": {
     "set_schedule": {
       "name": "Ustaw harmonogram",
+      "description": "Ustawia harmonogram wyświetlanie pluginów",
       "fields": {
         "schedule": {
-          "name": "Harmonogram"
+          "name": "Harmonogram",
+          "description": "Lista obiektów z identyfikatorem pluginu i czasem jego trwania"
         }
       }
     },
     "remove_message": {
       "name": "Usuń wiadomość",
+      "description": "Usuwa wyświetlaną wiadomość",
       "fields": {
         "message_id": {
-          "name": "Identyfikator wiadomości"
+          "name": "Identyfikator wiadomości",
+          "description": "Identyfikator wiadomości do usunięcia"
         }
       }
     },
     "clear_storage": {
-      "name": "Wyczyść dane"
+      "name": "Wyczyść dane",
+      "description": "Usuwa dane z pamięci"
     }
   }
 }

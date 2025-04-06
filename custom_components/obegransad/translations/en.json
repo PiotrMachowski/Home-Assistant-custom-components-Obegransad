@@ -83,22 +83,27 @@
   "services": {
     "set_schedule": {
       "name": "Set schedule",
+      "description": "Sets a schedule of plugins",
       "fields": {
         "schedule": {
-          "name": "Schedule"
+          "name": "Schedule",
+          "description": "A list of plugin ids and their duration"
         }
       }
     },
     "remove_message": {
       "name": "Remove message",
+      "description": "Removes a repeating message",
       "fields": {
         "message_id": {
-          "name": "Message ID"
+          "name": "Message ID",
+          "description": "ID of a message to remove"
         }
       }
     },
     "clear_storage": {
-      "name": "Clear storage"
+      "name": "Clear storage",
+      "description": "Clears the storage"
     }
   }
 }
