@@ -62,6 +62,30 @@ data:
 ```
 
 ### Displaying the message
+```yaml
+action: notify.obegransad
+data:
+  message: Hello there
+  data:
+    graph: [8,5,2,1,0,0,1,4,7,10,13,14,15,15,14,11]
+    min_y: 0
+    max_y: 15
+    repeat: 2
+    message_id: 1
+    delay: 50
+```
+
+### Removing the message
+```yaml
+action: obegransad.remove_message
+data:
+  message_id: 1
+```
+
+### Clearing storage
+```yaml
+action: obegransad.clear_storage
+```
 
 
 
