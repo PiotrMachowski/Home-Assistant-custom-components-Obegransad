@@ -1,0 +1,104 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Podaj host",
+        "data": {
+          "host": "Host"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Nie można nawiązać połączenia",
+      "unknown": "Nieoczekiwany błąd"
+    },
+    "abort": {
+      "single_instance_allowed": "Już skonfigurowano. Możliwa jest tylko jedna instancja integracji.",
+      "cannot_connect": "Błąd połączenia"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "rows": {
+        "name": "Wiersze"
+      },
+      "columns": {
+        "name": "Kolumny"
+      },
+      "status": {
+        "name": "Status"
+      },
+      "plugin": {
+        "name": "Plugin"
+      },
+      "rotation": {
+        "name": "Obrót"
+      },
+      "schedule": {
+        "name": "Harmonogram",
+        "state_attributes": {
+          "schedule": {
+            "name": "Harmonogram"
+          }
+        }
+      },
+      "plugins": {
+        "name": "Pluginy",
+        "state_attributes": {
+          "plugins": {
+            "name": "Pluginy"
+          }
+        }
+      },
+      "brightness": {
+        "name": "Jasność"
+      }
+    },
+    "binary_sensor": {
+      "schedule_active": {
+        "name": "Aktywny harmonogram",
+        "state_attributes": {
+          "schedule": {
+            "name": "Harmonogram"
+          }
+        }
+      }
+    },
+    "light": {
+      "light": {
+        "name": ""
+      }
+    },
+    "switch": {
+      "schedule": {
+        "name": "Harmonogram",
+        "state_attributes": {
+          "schedule": {
+            "name": "Harmonogram"
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "set_schedule": {
+      "name": "Ustaw harmonogram",
+      "fields": {
+        "schedule": {
+          "name": "Harmonogram"
+        }
+      }
+    },
+    "remove_message": {
+      "name": "Usuń wiadomość",
+      "fields": {
+        "message_id": {
+          "name": "Identyfikator wiadomości"
+        }
+      }
+    },
+    "clear_storage": {
+      "name": "Wyczyść dane"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "domain": "obegransad",
+  "name": "Obegränsad",
+  "codeowners": [
+    "@PiotrMachowski"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Obegransad",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/PiotrMachowski/Home-Assistant-custom-components-Obegransad/issues",
+  "requirements": [
+  ],
+  "version": "v0.0.0-master"
+}

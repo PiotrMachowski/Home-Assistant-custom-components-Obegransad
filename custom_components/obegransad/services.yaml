@@ -1,0 +1,15 @@
+set_schedule:
+  fields:
+    schedule:
+      required: true
+      selector:
+        object:
+
+remove_message:
+  fields:
+    message_id:
+      required: true
+      selector:
+        text:
+
+clear_storage:

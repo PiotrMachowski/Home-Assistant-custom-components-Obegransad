@@ -1,0 +1,104 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Provide a host",
+        "data": {
+          "host": "Host"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Unable to connect",
+      "unknown": "Unknown error"
+    },
+    "abort": {
+      "single_instance_allowed": "Already configured. Only a single configuration possible.",
+      "cannot_connect": "Failed to connect"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "rows": {
+        "name": "Rows"
+      },
+      "columns": {
+        "name": "Columns"
+      },
+      "status": {
+        "name": "Status"
+      },
+      "plugin": {
+        "name": "Plugin"
+      },
+      "rotation": {
+        "name": "Rotation"
+      },
+      "schedule": {
+        "name": "Schedule",
+        "state_attributes": {
+          "schedule": {
+            "name": "Schedule"
+          }
+        }
+      },
+      "plugins": {
+        "name": "Plugins",
+        "state_attributes": {
+          "plugins": {
+            "name": "Plugins"
+          }
+        }
+      },
+      "brightness": {
+        "name": "Brightness"
+      }
+    },
+    "binary_sensor": {
+      "schedule_active": {
+        "name": "Active schedule",
+        "state_attributes": {
+          "schedule": {
+            "name": "Schedule"
+          }
+        }
+      }
+    },
+    "light": {
+      "light": {
+        "name": ""
+      }
+    },
+    "switch": {
+      "schedule": {
+        "name": "Schedule",
+        "state_attributes": {
+          "schedule": {
+            "name": "Schedule"
+          }
+        }
+      }
+    }
+  },
+  "services": {
+    "set_schedule": {
+      "name": "Set schedule",
+      "fields": {
+        "schedule": {
+          "name": "Schedule"
+        }
+      }
+    },
+    "remove_message": {
+      "name": "Remove message",
+      "fields": {
+        "message_id": {
+          "name": "Message ID"
+        }
+      }
+    },
+    "clear_storage": {
+      "name": "Clear storage"
+    }
+  }
+}

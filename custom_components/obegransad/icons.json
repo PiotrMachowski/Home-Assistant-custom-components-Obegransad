@@ -1,0 +1,68 @@
+{
+  "entity": {
+    "sensor": {
+      "rows": {
+        "default": "mdi:land-rows-horizontal"
+      },
+      "columns": {
+        "default": "mdi:land-rows-vertical"
+      },
+      "status": {
+        "default": "mdi:state-machine"
+      },
+      "plugin": {
+        "default": "mdi:toy-brick-plus"
+      },
+      "rotation": {
+        "default": "mdi:screen-rotation"
+      },
+      "schedule": {
+        "default": "mdi:calendar-clock"
+      },
+      "plugins": {
+        "default": "mdi:toy-brick-search"
+      },
+      "brightness": {
+        "default": "mdi:brightness-6"
+      }
+    },
+    "binary_sensor": {
+      "schedule_active": {
+        "default": "mdi:calendar-clock",
+        "state": {
+          "on": "mdi:calendar-clock",
+          "off": "mdi:calendar-clock-outline"
+        }
+      }
+    },
+    "light": {
+      "light": {
+        "default": "mdi:grid",
+        "state": {
+          "on": "mdi:grid",
+          "off": "mdi:grid-off"
+        }
+      }
+    },
+    "switch": {
+      "schedule": {
+        "default": "mdi:calendar-clock",
+        "state": {
+          "on": "mdi:calendar-clock",
+          "off": "mdi:calendar-clock-outline"
+        }
+      }
+    }
+  },
+  "services": {
+    "set_schedule": {
+      "service": "mdi:calendar-clock"
+    },
+    "remove_message": {
+      "service": "mdi:message-off"
+    },
+    "clear_storage": {
+      "service": "mdi:delete"
+    }
+  }
+}
