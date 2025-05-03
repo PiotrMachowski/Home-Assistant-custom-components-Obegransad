@@ -20,6 +20,8 @@
 
 This integration allows to control IKEA OBEGRÄNSAD LED Wall Lamp hacked with [this software](https://github.com/ph1p/ikea-led-obegraensad).
 
+You might also consider using [my fork instead](https://github.com/PiotrMachowski/ikea-led-obegraensad) in order to display weather data from Home Assistant instead.
+
 ## Configuration
 
 To configure this integration search for `Obegränsad` on *Integrations* page.
