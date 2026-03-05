@@ -119,7 +119,11 @@ class ObegransadLightEntity(ObegransadEntity, LightEntity):
 
     @property
     def supported_color_modes(self: Self) -> set[ColorMode]:
-        return {ColorMode.ONOFF, ColorMode.BRIGHTNESS}
+        return {ColorMode.BRIGHTNESS}
+
+    @property
+    def color_mode(self) -> ColorMode:
+        return ColorMode.BRIGHTNESS
 
     @property
     def use_device_name(self: Self) -> bool:
